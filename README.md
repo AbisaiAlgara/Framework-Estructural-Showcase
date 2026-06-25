@@ -1,5 +1,7 @@
 # Motor de Optimizacion Estructural
 
+Este repositorio es una versión showcase/documental. El código fuente completo no se publica por tratarse de un proyecto académico/profesional en desarrollo.
+
 Framework en Python para modelado, analisis, validacion normativa, optimizacion genetica y generacion de memorias tecnicas de estructuras metalicas y mixtas.
 
 El proyecto integra:
