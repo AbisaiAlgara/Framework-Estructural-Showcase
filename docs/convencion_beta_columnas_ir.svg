@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1565c0"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d32"/>
+    </marker>
+    <style>
+      .title { font: 700 28px Arial, sans-serif; fill: #111111; }
+      .subtitle { font: 400 17px Arial, sans-serif; fill: #455a64; }
+      .panel-title { font: 700 24px Arial, sans-serif; fill: #263238; }
+      .label { font: 600 17px Arial, sans-serif; fill: #263238; }
+      .note { font: 400 16px Arial, sans-serif; fill: #455a64; }
+      .axis-label { font: 700 17px Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="650" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" class="title">Convencion de Orientacion_Beta para columnas IR verticales</text>
+  <text x="600" y="78" text-anchor="middle" class="subtitle">Vista en planta: el eje longitudinal local x de la columna coincide con Z global</text>
+
+  <rect x="45" y="110" width="530" height="445" rx="8" fill="#f8fafc" stroke="#cfd8dc" stroke-width="2"/>
+  <rect x="625" y="110" width="530" height="445" rx="8" fill="#f8fafc" stroke="#cfd8dc" stroke-width="2"/>
+
+  <text x="310" y="155" text-anchor="middle" class="panel-title">Beta = 0 deg o 180 deg</text>
+  <text x="890" y="155" text-anchor="middle" class="panel-title">Beta = 90 deg o 270 deg</text>
+
+  <!-- Panel beta 0: peralte/web paralelo a X, patines paralelos a Y -->
+  <line x1="220" y1="225" x2="220" y2="425" stroke="#263238" stroke-width="28" stroke-linecap="square"/>
+  <line x1="400" y1="225" x2="400" y2="425" stroke="#263238" stroke-width="28" stroke-linecap="square"/>
+  <line x1="220" y1="325" x2="400" y2="325" stroke="#607d8b" stroke-width="18"/>
+  <circle cx="310" cy="325" r="6" fill="#111111"/>
+
+  <line x1="310" y1="195" x2="310" y2="455" stroke="#c62828" stroke-width="3" stroke-dasharray="9 7"/>
+  <line x1="180" y1="325" x2="440" y2="325" stroke="#2e7d32" stroke-width="3" stroke-dasharray="9 7"/>
+  <text x="322" y="205" class="axis-label" fill="#c62828">Eje fuerte Ix || Y</text>
+  <text x="325" y="350" class="axis-label" fill="#2e7d32">Eje debil Iy || X</text>
+
+  <line x1="95" y1="355" x2="165" y2="355" stroke="#1565c0" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <line x1="95" y1="355" x2="95" y2="285" stroke="#1565c0" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <text x="130" y="380" text-anchor="middle" class="axis-label" fill="#1565c0">X global</text>
+  <text x="66" y="277" class="axis-label" fill="#1565c0">Y global</text>
+  <text x="310" y="490" text-anchor="middle" class="label">Patines paralelos a Y global</text>
+  <text x="310" y="518" text-anchor="middle" class="label">Web y peralte paralelos a X global</text>
+  <text x="310" y="546" text-anchor="middle" class="label" fill="#1565c0">Mayor rigidez lateral en X global</text>
+
+  <!-- Panel beta 90: peralte/web paralelo a Y, patines paralelos a X -->
+  <line x1="800" y1="225" x2="800" y2="425" stroke="#607d8b" stroke-width="18"/>
+  <line x1="710" y1="225" x2="890" y2="225" stroke="#263238" stroke-width="28" stroke-linecap="square"/>
+  <line x1="710" y1="425" x2="890" y2="425" stroke="#263238" stroke-width="28" stroke-linecap="square"/>
+  <circle cx="800" cy="325" r="6" fill="#111111"/>
+
+  <line x1="670" y1="325" x2="930" y2="325" stroke="#c62828" stroke-width="3" stroke-dasharray="9 7"/>
+  <line x1="800" y1="195" x2="800" y2="455" stroke="#2e7d32" stroke-width="3" stroke-dasharray="9 7"/>
+  <text x="810" y="350" class="axis-label" fill="#c62828">Eje fuerte Ix || X</text>
+  <text x="812" y="190" class="axis-label" fill="#2e7d32">Eje debil Iy || Y</text>
+
+  <line x1="665" y1="355" x2="735" y2="355" stroke="#1565c0" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <line x1="665" y1="355" x2="665" y2="285" stroke="#1565c0" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <text x="700" y="380" text-anchor="middle" class="axis-label" fill="#1565c0">X global</text>
+  <text x="636" y="277" class="axis-label" fill="#1565c0">Y global</text>
+  <text x="890" y="490" text-anchor="middle" class="label">Patines paralelos a X global</text>
+  <text x="890" y="518" text-anchor="middle" class="label">Web y peralte paralelos a Y global</text>
+  <text x="890" y="546" text-anchor="middle" class="label" fill="#1565c0">Mayor rigidez lateral en Y global</text>
+
+  <text x="600" y="596" text-anchor="middle" class="note">Beta gira la seccion alrededor de local x, desde Nodo_I hacia Nodo_J, por regla de la mano derecha.</text>
+  <text x="600" y="622" text-anchor="middle" class="note">En perfiles OR cuadrados y MIXTA-OR cuadrados, 0 y 90 deg son equivalentes para la rigidez.</text>
+</svg>
