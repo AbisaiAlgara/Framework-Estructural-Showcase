@@ -1,6 +1,32 @@
-# Motor de Optimizacion Estructural
+# Framework Estructural Showcase
 
-Este repositorio es una versión showcase/documental. El código fuente completo no se publica por tratarse de un proyecto académico/profesional en desarrollo.
+Repositorio documental de un framework propio para análisis, validación normativa y optimización estructural de edificios de acero.
+
+Este proyecto integra **Python**, **OpenSeesPy**, **DEAP/NSGA-II** y generación automática de reportes técnicos para modelar, analizar y optimizar estructuras metálicas mediante un flujo reproducible y trazable.
+
+> Nota: este repositorio funciona como versión showcase/documental. El código fuente completo no se publica en su totalidad por tratarse de un proyecto académico/profesional en desarrollo.
+
+## Enfoque técnico
+
+* Modelado estructural 3D con OpenSeesPy.
+* Análisis modal y respuesta espectral CQC.
+* Revisión de derivas, desplazamientos, demanda/capacidad y esbeltez.
+* Diseño LRFD de elementos de acero.
+* Optimización multiobjetivo mediante NSGA-II.
+* Generación automática de reportes en Markdown, CSV y JSON.
+* Validación contra software comercial y ejercicios de referencia.
+
+## Caso aplicado
+
+El framework fue aplicado a un edificio metálico de departamentos estudiantiles de cuatro niveles, evaluando alternativas estructurales y seleccionando un sistema con marcos a momento y contravientos Chevron en X.
+
+Resultados principales:
+
+* Peso de acero aproximado: **44.84 t**
+* D/C máxima global: **0.793**
+* Deriva máxima de servicio: **0.000816**
+* Desplazamiento de azotea: **8.35 mm**
+* Candidato adoptado: **Rank 55**
 
 Framework en Python para modelado, analisis, validacion normativa, optimizacion genetica y generacion de memorias tecnicas de estructuras metalicas y mixtas.
 
