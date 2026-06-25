@@ -1,0 +1,38 @@
+{
+  "corrida": "marco_momento_lrfd_ir_profunda_p96_g48",
+  "fecha_generacion": "2026-06-16T23:33:16",
+  "fecha_legible": "2026-06-16 23:33:16",
+  "nombre_amigable": "Marco_momento_LRFD_IR_96x48",
+  "alias_usuario": "Marco_momento_LRFD_IR_96x48",
+  "familia_modelo": "marco_momento",
+  "tamano_corrida": "96x48",
+  "objetivo_deriva_label": "Auto 0.35-0.80",
+  "candidatos_pareto": 31,
+  "factibles_pareto": 30,
+  "candidatos_elite": 10,
+  "poblacion": 96,
+  "generaciones": 48,
+  "nucleos": 8,
+  "prob_cruce": 0.85,
+  "prob_mutacion": 0.35,
+  "cfvd_aplicado": true,
+  "cfvd_criterio": "aplica_por_marco_momento",
+  "objetivo_deriva": {
+    "modo": "auto",
+    "sistema_lateral": "marco_momento",
+    "min_util": 0.35,
+    "meta_util": 0.8,
+    "factor_penal_rigidez": 8.0
+  },
+  "objetivo_dc": {
+    "meta_util": 0.8,
+    "max_util": 0.95,
+    "factor_penal_sobre_meta": 6.0
+  },
+  "archivos": {
+    "frente_pareto_csv": "resultados_optimizacion\\corrida_marco_momento_lrfd_ir_profunda_p96_g48\\frente_pareto.csv",
+    "frente_pareto_json": "resultados_optimizacion\\corrida_marco_momento_lrfd_ir_profunda_p96_g48\\frente_pareto.json",
+    "elite_candidatos_csv": "resultados_optimizacion\\corrida_marco_momento_lrfd_ir_profunda_p96_g48\\elite_candidatos.csv",
+    "elite_candidatos_json": "resultados_optimizacion\\corrida_marco_momento_lrfd_ir_profunda_p96_g48\\elite_candidatos.json"
+  }
+}

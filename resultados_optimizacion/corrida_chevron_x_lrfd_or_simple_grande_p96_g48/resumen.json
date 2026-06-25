@@ -1,0 +1,38 @@
+{
+  "corrida": "chevron_x_lrfd_or_simple_grande_p96_g48",
+  "fecha_generacion": "2026-06-08T11:57:03",
+  "fecha_legible": "2026-06-08 11:57:03",
+  "nombre_amigable": "Chevron X | OR simple LRFD grande | 96x48",
+  "alias_usuario": "Chevron X | OR simple LRFD grande | 96x48",
+  "familia_modelo": "arriostrado",
+  "tamano_corrida": "96x48",
+  "objetivo_deriva_label": "Auto 0.25-0.35",
+  "candidatos_pareto": 32,
+  "factibles_pareto": 32,
+  "candidatos_elite": 9,
+  "poblacion": 96,
+  "generaciones": 48,
+  "nucleos": 8,
+  "prob_cruce": 0.85,
+  "prob_mutacion": 0.35,
+  "cfvd_aplicado": false,
+  "cfvd_criterio": "omitido_por_sistema_arriostrado",
+  "objetivo_deriva": {
+    "modo": "auto",
+    "sistema_lateral": "arriostrado",
+    "min_util": 0.25,
+    "meta_util": 0.35,
+    "factor_penal_rigidez": 8.0
+  },
+  "objetivo_dc": {
+    "meta_util": 0.8,
+    "max_util": 0.95,
+    "factor_penal_sobre_meta": 6.0
+  },
+  "archivos": {
+    "frente_pareto_csv": "resultados_optimizacion\\corrida_chevron_x_lrfd_or_simple_grande_p96_g48\\frente_pareto.csv",
+    "frente_pareto_json": "resultados_optimizacion\\corrida_chevron_x_lrfd_or_simple_grande_p96_g48\\frente_pareto.json",
+    "elite_candidatos_csv": "resultados_optimizacion\\corrida_chevron_x_lrfd_or_simple_grande_p96_g48\\elite_candidatos.csv",
+    "elite_candidatos_json": "resultados_optimizacion\\corrida_chevron_x_lrfd_or_simple_grande_p96_g48\\elite_candidatos.json"
+  }
+}
