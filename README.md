@@ -32,6 +32,28 @@ Este proyecto integra **Python**, **OpenSeesPy**, **DEAP/NSGA-II** y generación
 
 > Nota: este repositorio funciona como versión showcase/documental. El código fuente completo no se publica en su totalidad por tratarse de un proyecto académico/profesional en desarrollo.
 
+## Cómo leer este repositorio
+
+Este repositorio está organizado como una vitrina técnica del framework. No busca publicar todo el código fuente, sino mostrar la arquitectura, documentación, reportes generados y evidencia del flujo computacional.
+
+### Carpetas principales
+
+* `docs/`
+  Documentación técnica del framework: arquitectura, UML, convenciones de modelado y criterios de orientación de perfiles.
+
+* `reportes_generados/`
+  Ejemplos de salidas automáticas producidas por el framework, incluyendo memorias, CSV, JSON, revisiones LRFD, deflexiones, fuerzas internas y trazabilidad de resultados.
+
+* `resultados_optimizacion/`
+  Archivos asociados al proceso de optimización, candidatos evaluados, resultados de desempeño y selección de alternativas estructurales.
+
+### Lectura recomendada
+
+1. Revisar primero este `README.md`.
+2. Abrir la documentación de arquitectura en `docs/`.
+3. Revisar los reportes automáticos en `reportes_generados/`.
+4. Consultar los resultados de optimización para entender la selección del candidato estructural adoptado.
+
 ## Enfoque técnico
 
 * Modelado estructural 3D con OpenSeesPy.
