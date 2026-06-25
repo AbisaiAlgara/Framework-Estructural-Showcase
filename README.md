@@ -485,3 +485,9 @@ Notas tecnicas importantes:
 - Optimizacion robusta.
 - Surrogate models.
 - Integracion BIM.
+
+## Estado del proyecto
+
+El framework se encuentra en desarrollo y mejora continua. La versión mostrada en este repositorio corresponde a una etapa documental/showcase, enfocada en demostrar arquitectura, flujo de análisis, validación técnica, optimización estructural y generación automática de reportes.
+
+El código fuente completo no se publica en su totalidad para proteger el desarrollo académico/profesional del proyecto.
