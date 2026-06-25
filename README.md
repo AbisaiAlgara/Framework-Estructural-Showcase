@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/github_readme_banner_abisai.png" alt="Framework Estructural Showcase" width="100%">
+</p>
+
 # Framework Estructural Showcase
 
 Repositorio documental de un framework propio para análisis, validación normativa y optimización estructural de edificios de acero.
